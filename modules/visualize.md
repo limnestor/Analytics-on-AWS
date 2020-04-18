@@ -47,7 +47,7 @@ In this step we will visualize our processed data using QuickSight.
         * Click **Create data source**
     * Choose your table:
         * Database: contain sets of tables - select **analyticsdemodb**
-        * Tables: contain the data you can visualize - select **processed_data**
+        * Tables: contain the data you can visualize - select **emr_processed_data**
         * Click **Select**
     * Finish data set creation:
         * Select **Directly query your data**
