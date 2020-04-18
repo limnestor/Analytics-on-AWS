@@ -29,7 +29,7 @@ Login to the Amazon Athena Console.
     ```
     SELECT artist_name,
            count(artist_name) AS count
-    FROM processed_data
+    FROM emr_processed_data
     GROUP BY artist_name
     ORDER BY count desc
     ```
@@ -40,7 +40,7 @@ Login to the Amazon Athena Console.
     SELECT device_id,
            track_name,
            count(track_name) AS count
-    FROM processed_data
+    FROM emr_processed_data
     GROUP BY device_id, track_name
     ORDER BY count desc
     ````
