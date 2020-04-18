@@ -244,7 +244,7 @@ It will take close to 10 minutes for the new Glue development endpoint to spin u
   * Attach to development endpoint: **analyticsDemoEndpoint2**
   * Select **Choose an existing role**
   * IAM Role: **AnalyticsDemoNotebookRole**
-  * VPC (optional): Leave blank
+  * VPC (optional): Choose the default VPC and subnet used in the Redshift cluster
   * Encryption key (optional): Leave blank
   * Optionally add Tags, e.g.:
       * Demo: AnalyticsOnAWS
