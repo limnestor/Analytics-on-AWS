@@ -234,6 +234,11 @@ It will take close to 10 minutes for the new Glue development endpoint to spin u
   * Click **Next: Review**
   * Role Name: **AnalyticsDemoNotebookRole**
   * Click **Create role**
+* Open the newly created roles and attach the following policies
+  * AWSGlueServiceNotebookRole
+  * AWSGlueServiceRole
+  * AWSGlueConsoleSageMakerNotebookFullAccess
+  * AWSGlueConsoleFullAccess
 
 ### Create SageMaker Notebooks (Jupyter) for Glue Dev Endpoints
 
