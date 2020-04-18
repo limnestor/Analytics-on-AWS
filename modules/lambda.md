@@ -103,7 +103,7 @@ In this section, we will provide code to the lambda function which we just creat
 
 * Scroll down to **Environment variables** section and add below two Environment variables.
   * Key: **DATABASE**, Value: **analyticsdemodb**
-  * Key: **TABLE**, Value: **processed_data**
+  * Key: **TABLE**, Value: **emr_processed_data**
   * Key: **BUCKET_NAME**, Value: **yourname-analytics-demo-bucket**
 * Leave the **Memory (MB)** as default which is 128 MB
 * Change **Timeout** to 10 seconds.
