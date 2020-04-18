@@ -23,7 +23,7 @@ Let's create a Lambda Function which will host the code for Athena to query and 
 * Select **Author from scratch**
 * Under **Basic Information**:
   * Give Function name as **AnalyticsDemo_top5Songs**
-  * Select Runtime as **Python 3.8**
+  * Select Runtime as **Python 3.7**
   * Expand **Choose or create an execution role** under Permissions, make sure **Create a new role with basic Lambda permissions** is selected.
 * Click **Create Function**
 
