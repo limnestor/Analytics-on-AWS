@@ -224,6 +224,17 @@ It will take close to 10 minutes for the new Glue development endpoint to spin u
 
 **You have to wait for this step to complete before moving to next step.**
 
+### Create Role For SageMaker Notebooks
+
+* Go to: https://console.aws.amazon.com/iam/home?region=us-east-1#/roles
+* Click **Create Role**
+  * Choose **SageMaker**
+  * Click **Next: Permissions**
+  * Click **Next: Tags**
+  * Click **Next: Review**
+  * Role Name: **AnalyticsDemoNotebookRole**
+  * Click **Create role**
+
 ### Create SageMaker Notebooks (Jupyter) for Glue Dev Endpoints
 
 * Go to: https://console.aws.amazon.com/glue/home?region=us-east-1#etl:tab=notebooks
