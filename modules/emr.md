@@ -64,7 +64,7 @@ In this step, we will create a EMR cluster and submit a Spark step.
     
     * Leave the **Use AWS Glue Data Catalog for table metadata** option **unchecked**
     * Confirm the Security configuration is set to 
-        * Release: **emr-x.x**
+        * Release: **emr-x.x** (use emr-6.0.0 or the latest if there are issues in running using the default version)
         * Applications: Hadoop x.x.x, Spark x.x.x
         * The versions here will be set to the latest version by default        
     * Confirm the Hardware configuration defaults are 
