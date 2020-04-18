@@ -147,7 +147,7 @@ Let's verify the results through Athena
   SELECT track_name as "Track Name",
       artist_name as "Artist Name",
       count(1) as "Hits" 
-  FROM analyticsdemodb.processed_data 
+  FROM analyticsdemodb.emr_processed_data 
   GROUP BY 1,2 
   ORDER BY 3 DESC 
   LIMIT 5;
